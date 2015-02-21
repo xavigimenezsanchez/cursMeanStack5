@@ -1,0 +1,20 @@
+{
+  "name": "5-autenticacio",
+  "version": "1.0.0",
+  "description": "petit exemple d'autenticació JWT",
+  "main": "server.js",
+  "dependencies": {
+    "bcrypt": "^0.8.1",
+    "body-parser": "^1.12.0",
+    "express": "^4.11.2",
+    "jwt-simple": "^0.2.0",
+    "mongoose": "^3.8.23"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "xavigimenezsanchez",
+  "license": "ISC"
+}
